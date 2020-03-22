@@ -1,0 +1,124 @@
+/* 
+    Learned Concepts: 
+        1- Border Radius
+        2- Display Property
+        3- Comment And Uncomment Element
+        4- Anchor Tag  
+*/
+
+/*
+    Homework:
+    Add Borders For Each Pokemon Type
+    Color the names for each class
+    
+ */
+
+/* body{
+    margin-right: 15%;
+    margin-left: 15%;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: maroon;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: silver;
+} */
+
+#header{
+    margin-bottom: 5%;
+    text-align: center;
+    border-width: 3px;
+    border-color: maroon;
+    border-style: solid;
+    background-color: dimgrey;
+}
+
+img{
+    width: 10%;
+    border-width: 5.5px;
+    border-style: solid;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: maroon;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#nav{
+    position: fixed;
+    top: 26px;
+    left: 26px;
+}
+a, a:link, a:visited {
+    color: maroon;
+}
+
+a:hover{
+    color:grey;
+}
+
+#list{
+    margin-right: 15%;
+    margin-left: 15%;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: maroon;
+    padding-left: 20px;
+    padding-right: 20px; 
+    background-color:grey; 
+}
+
+
+/* h1{
+    text-align: center;
+    border-bottom-width: 3px;
+    border-bottom-color: maroon;
+    border-bottom-style: solid;
+} */
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding-left:15px;
+}
+
+#footer{
+    margin-right: 15%;
+    margin-left: 15%;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: maroon;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-top: 5%;
+    background-color:grey;
+}
+
+.fire-image{
+    border-color:red;
+}
+
+.grass-image{
+    border-color:green;
+}
+
+.water-image{
+    border-color:blue;
+}
+
+#fire-type{
+    color: red;
+}
+
+#water-type{
+    color:blue
+}
+
+#grass-type{
+    color: green;
+}
+
